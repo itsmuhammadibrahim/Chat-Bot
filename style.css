@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+background:  #fff;
+
+}
+.chatbot {
+
+    position: fixed;
+    right: 40px;
+    bottom: 50px;
+    width: 300px;
+    background: #d0bdf4;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 0 0 128px 0 rgba(0,0,0,0.1), 
+                0 32px 64px -48x rgba(0,0,0,0.5); 
+
+
+}
+.chatbot header{
+    background: #a28089;
+    padding: 16px 0;
+    text-align: center;
+
+}
+
+.chatbot header h2{
+    color: #fff;
+    font-size: 1.4rem;
+}
+
+.chatbot .chatbox{
+    height: 300px;
+    overflow-y: auto;
+    padding: 15px 15px 70px;
+
+}
+
+.chatbox .chat {
+    display: flex;
+}
+.chatbox .incoming span{
+    background: #eeb0ee;
+    color: #f2f2f2;
+    height: 28px;
+    width: 28px;
+    text-align: center;
+    line-height: 28px;
+    border-radius: 2px;
+    justify-content: flex-end;
+    margin: 0 10px 7px 0;
+}
+
+.chatbox .outgoing{
+    margin: 10px 0;
+    justify-content: flex-end;
+}
+.chatbox .outgoing p {
+    background: #f2f2f2;
+    border-radius: 10px 10px 10px 0;
+}
+.chatbox .chat p {
+    color: #fff;
+    max-width: 75%;
+    font-size: 0.95rem;
+    padding: 10px 10px;
+    border-radius: 10px 10px 0 10px;
+    background: #eeb0ee;
+
+}
+.chatbox .incoming p {
+    color: #000;
+    background: #f2f2f2;
+    border-radius: 10px 10px 10px 0px;
+}
+
+.chatbot .chat-input {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    background: #d8a8b5;
+    padding: 5px 10px;
+    border-top: 1px solid #ccc;
+    margin-bottom: -10px;
+}
+
+.chat-input textarea {
+    background: #d8a8b5;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: 100%;
+    border: none;
+    outline: none;
+    font: 0.95rem;
+    resize: none;
+    padding: 2px 2px 2px 2px;
+} 
